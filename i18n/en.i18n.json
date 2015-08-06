@@ -1,0 +1,102 @@
+{
+
+	/*Config*/
+	"configName": "Pharma-Colloque",
+	"configTitle": "Starter for colloque project",
+	"configSubtitle": "Server: Node, DB: Mongo, Framework: Meteor",
+
+	/*Home*/
+	"getstarted": "Get Started",
+	"user-interface": "User Interface",
+	"dashboard": "Go to dashboard",
+	"learn": "Learn more",
+	"intro": "Make Meteor Apps. Fast.",
+	"how": "How It Works",
+	"step_1": "Step 1",
+	"step_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"step_2": "Step 2",
+	"step_2_text": "Oratio me istius philosophi non offendit; Qua tu etiam inprudens utebare non numquam.",
+	"step_3": "Step 3",
+	"step_3_text": "Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete.",
+	"section_ipad_header": "A revolutionary product",
+	"section_ipad_text": "Do really cool stuff really quickly",
+	"section_ipad_btn": "Made by MeteorFactory",
+	"final_text": "Your life will be instantly better",
+	"final_cta": "Take a look",
+
+	/*Shared*/
+
+	"favorite": "Favorite",
+
+	 /*Navbar*/
+	"admin": "Admin",
+	"profile": "Profile",
+	"account": "Account",
+	"signout": "Sign out",
+	"signup": "Sign up",
+	"login": "Log in",
+	"login2": "Login",
+	"edit_profile": "Edit Profile",
+	"ourMission": "Our mission",
+	"calendar": "Calendar",
+	"howToGetThere": "How to get there?",
+	"contactUs": "Contact us",
+	"headerMainText": "Intra-university colloquium in pharmaceutical field",
+	"homepageMainText": "Actual and future stake of pharmaceutical field",
+	"homepageSubText": "January 9-10 2016",
+
+	/*Not Found*/
+	"not_found": "Nothing here",
+
+
+	/*Dashboard*/
+	"add_post": "Add a Post",
+	"add_post_btn": "Add Post",
+	"add_post_modal": "Add with a modal",
+	"add_post_modal_btn": "Add a new post",
+	"edit_post": "Edit post",
+	"delete": "Delete",
+	"favorites": "Favorites",
+
+	/*Account*/
+	"account_details": "Account Details",
+	"delete_account": "Delete Account",
+	"delete_account_warn": "There's no coming back from this one",
+	"delete_account_warn2": "Are you sure you want to delete your account?",
+	"close": "Close",
+	"change_pswd": "Change Password",
+
+	/*Profile*/
+	"update": "Update",
+
+	/*Posts*/
+
+	"postTitle": "Title",
+	"postContent": "Content",
+	"postPicture": "Picture",
+	// "uploadLabel": "Choose File",
+	"profilePicture": "Profile Picture",
+
+	/*Calendar*/
+
+	"schedule": "SCHEDULE",
+
+	/*Mission*/
+
+	"mission_dialog_box_1st" : "Organized as a result of a close collaboration between the Faculty of Pharmacy of Montreal University and the Pharmacology Department of Sherbrooke University, the conference aims to promote and instigate the discovery of science programs biopharmaceutical and pharmacology, these being respectively provided within these institutes. After this event, students from these areas are called to exchange on the many aspects of drug development, either basic research to the marketing of therapeutic agents. In addition, lectures and interviews with many experts in industrial fields, clinical, academic and business are expected to inform young academics regarding innovative research topics, in addition to state some of pharmacy issues and explain the role and importance of the various facets of the latter.",
+	"mission_dialog_box_2nd" : "Following these exchanges, all students present will then be invited to put it to work and integrate their knowledge by participating in simulation exercises and solving probable and applied problems. The organizing committee finally makes an award highlighting the teams that have demonstrated their knowledge, initiative and critics throughout the exercise. Beyond being an opportunity for the transmission of information, the conference encourages students to interact among themselves or with the professionals present in order to ultimately maintain relevant and substantial scientific discussions.",
+
+	/*IESucks*/
+
+	"IEsuckstag_1" : "This website is ",
+	"IEsuckstag_2" : "WAY too good ",
+	"IEsuckstag_3" : "to be viewed on Internet Explorer.",
+	"dlTag": "Please download ",
+	"orTag": "or ",
+	"university_joke": "A college student should know that already... (What the heck are you learning in school?)",
+
+	/* contactUs */
+	"iAm_business": "I am a business",
+	"iAm_student": "I am a student",
+	"iAm_professional": "I am a professional/speaker"
+}

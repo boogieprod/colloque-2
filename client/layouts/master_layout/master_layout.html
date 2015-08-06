@@ -1,0 +1,14 @@
+<template name="masterLayout">
+	<div class="layout master-layout">
+		{{> navbar}}
+		{{> uiHeader}}
+		{{#momentum plugin='iron-router' options=momentumIRTransition}}
+			{{> yield }}
+		{{/momentum}}
+	</div>
+
+	<!-- Prevent footer from popping up when route loading -->
+	{{> footer}}
+
+	{{> autoformModals}}
+</template>

@@ -1,0 +1,46 @@
+<template name="navbar">
+	<div class="template-navbar">
+		<div class="navbar navbar-inverse main-nav" id="main-nav">
+			<div class="container close-navbar">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed pull-right visible-xs" data-toggle="collapse" data-target="#navbar-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a href="{{pathFor 'profile'}}" class="xs-mobile-cta">
+						<i class="fa fa-user"></i>
+					</a>
+					<a class="navbar-brand" href="{{pathFor 'uiHomepage'}}">{{{Config.logo}}}</a>
+				</div>
+				<div class="navbar-collapse collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+					{{#if User}}
+						{{#if isInRole 'admin'}}
+						<li><a href="{{pathFor 'adminDashboard'}}">{{_ "admin"}}</a></li>
+						<li class="dropdown hidden-xs">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">{{niceName User._id}} <i class="fa fa-chevron-down i-xs"></i></a>
+							<ul class="dropdown-menu">
+								<li><a href="{{pathFor 'profile'}}">{{_ "profile"}}</a></li>
+								<li><a href="{{pathFor 'account'}}">{{_ "account"}}</a></li>
+								<li class="divider"></li>
+								<li><a href="/sign-out">{{_ "signout"}}</a></li>
+							</ul>
+						</li>
+						<li class="visible-xs">
+							<a href="{{pathFor 'profile'}}" class="close-navbar">{{_ "edit_profile"}}</a>
+						</li>
+						<li class="visible-xs">
+							<a class="close-navbar" href="/sign-out">{{_ "signout"}}</a>
+						</li>
+						{{/if}}
+					{{/if}}
+					<li><a href="{{pathFor 'ourMission'}}">{{_ "ourMission"}}</a></li>
+					<li><a href="{{pathFor 'calendar'}}">{{_ "calendar"}}</a></li>
+					<li><a href="{{pathFor 'map'}}">{{_ "howToGetThere"}}</a></li>
+					<li><a href="{{pathFor 'contactUs'}}">{{_ "contactUs"}}</a></li>
+					<li>{{> i18n_dropdown}}</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>

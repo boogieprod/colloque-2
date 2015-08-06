@@ -1,0 +1,102 @@
+{
+
+	/*Config*/
+	"configName": "Pharma-Colloque",
+	"configTitle": "Starter pour projet colloque",
+	"configSubtitle": "Serveur: Node, DB: Mongo, Framework: Meteor",
+
+	/*Home*/
+	"getstarted": "Get Started",
+	"user-interface": "Interface client",
+	"dashboard": "Go to dashboard",
+	"learn": "Learn more",
+	"intro": "Make Meteor Apps. Fast.",
+	"how": "How It Works",
+	"step_1": "Step 1",
+	"step_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"step_2": "Step 2",
+	"step_2_text": "Oratio me istius philosophi non offendit; Qua tu etiam inprudens utebare non numquam.",
+	"step_3": "Step 3",
+	"step_3_text": "Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete.",
+	"section_ipad_header": "A revolutionary product",
+	"section_ipad_text": "Do really cool stuff really quickly",
+	"section_ipad_btn": "Made by MeteorFactory",
+	"final_text": "Your life will be instantly better.",
+	"final_cta": "Take a look",
+
+	/*Shared*/
+
+	"favorite": "Favorite",
+
+	 /*Navbar*/
+	"admin": "Admin",
+	"profile": "Profile",
+	"account": "Account",
+	"signout": "Sign out",
+	"signup": "Sign up",
+	"login": "Log in",
+	"login2": "Login",
+	"edit_profile": "Edit Profile",
+	"ourMission": "Notre mission",
+	"calendar": "Calendrier",
+	"howToGetThere": "Comment s'y rendre?",
+	"contactUs": "Nous contacter",
+	"headerMainText": "Colloque inter-universitaire en milieu pharmaceutique",
+	"homepageMainText": "Enjeux actuels et futurs du milieu pharmaceutique",
+	"homepageSubText": "9-10 janvier 2016",
+
+	/*Not Found*/
+	"not_found": "Nothing here",
+
+
+	/*Dashboard*/
+	"add_post": "Add a Post",
+	"add_post_btn": "Add Post",
+	"add_post_modal": "Add with a modal",
+	"add_post_modal_btn": "Add a new post",
+	"edit_post": "Edit post",
+	"delete": "Delete",
+	"favorites": "Favorites",
+
+	/*Account*/
+	"account_details": "Account Details",
+	"delete_account": "Delete Account",
+	"delete_account_warn": "There's no coming back from this one",
+	"delete_account_warn2": "Are you sure you want to delete your account?",
+	"close": "Close",
+	"change_pswd": "Change Password",
+
+	/*Profile*/
+	"update": "Update",
+
+	/*Posts*/
+
+	"postTitle": "Title",
+	"postContent": "Content",
+	"postPicture": "Picture",
+	// "uploadLabel": "Choose File",
+	"profilePicture": "Profile Picture",
+
+	/*Calendar*/
+
+	"schedule": "HORAIRE",
+
+	/*Mission*/
+
+	"mission_dialog_box_1st" : "Organisé à la suite d’une étroite collaboration entre la faculté de pharmacie de l’Université de Montréal, ainsi que le département de pharmacologie de l’Université de Sherbrooke, le colloque vise à promouvoir et instiguer à la découverte des programmes de baccalauréats en sciences biopharmaceutiques et en pharmacologie, ceux-ci étant respectivement offerts au sein de ces instituts. Au terme de cet évènement, les étudiants provenant de ces domaines sont appelés à tergiverser sur les multiples aspects du développement du médicament, soit de la recherche fondamentale jusqu’à la mise en marché d’agents thérapeutiques. De plus, conférences et entretiens avec de nombreux experts des champs industriels, cliniques, universitaires et commerciaux sont prévus afin d’informer la relève universitaire en ce qui concerne des sujets de recherche novateurs, en plus d’énoncer certains enjeux du domaine pharmaceutique et d’expliquer le rôle et l’importance des différentes facettes de ce dernier.",
+	"mission_dialog_box_2nd" : "Suivant ces échanges, tous les élèves présents sont ensuite invités à mettre à l’œuvre et intégrer leurs connaissances acquises en participant à des mises en situations et en résolvant des problématiques vraisemblables et appliquées. Le comité organisationnel procède finalement à une remise de prix soulignant les équipes ayant démontré leur savoir, leur initiative et leurs esprits critiques tout au long du déroulement de l’exercice. En plus d’être un moment propice à la transmission d’information, le colloque incite les étudiants à interagir entre eux ou avec les professionnels présents dans le but d’entretenir ultimement des discussions scientifiques pertinentes et substantielles.",
+
+	/*IESucks*/
+
+	"IEsuckstag_1" : "Ce site Web est ",
+	"IEsuckstag_2" : "BEAUCOUP trop bien fait",
+	"IEsuckstag_3" : "pour \u00EAtre vu avec Internet Explorer.",
+	"dlTag": "Veuillez t\u00E9l\u00E9charger ",
+	"orTag": "ou ",
+	"university_joke": "Un \u00E9tudiant universitaire devrait d\u00E9j\u00E0 savoir \u00E7a... (Qu'apprenez-vous \u00E0 l'\u00E9cole?)",
+
+	/* contactUs */
+	"iAm_business": "Je suis une entreprise",
+	"iAm_student": "Je suis un \u00E9tudiant",
+	"iAm_professional": "Je suis un professionnel/conf\u00E9rencier"
+}
