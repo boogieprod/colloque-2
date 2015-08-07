@@ -2,30 +2,7 @@
   <div class="container">
     <div class="row">
       <h2>{{_ "schedule"}}</h2>
-      <table class="table table-hovered table-bordered table-stripped">
-        <thead>
-          <th><h4>9 Janvier</h4></th>
-          <th><h4>10 janvier</h4></th>
-        </thead>
-        <tbody>
-          <td>
-          {{#each firstDayEvents}}
-            <tr>
-              <td>{{name}} {{time}}</td>
-            <!--  <td>{{speaker}}</td> -->
-            </tr>
-          {{/each}}
-        </td>
-        <td>
-          {{#each secondDayEvents}}
-          <tr>
-            <td>{{name}} {{time}}</td>
-            <!-- <td>{{speaker}}</td> -->
-          </tr>
-          {{/each}}
-        </td>
-        </tbody>
-      </table>
+      {{> fullcalendar options}}
     </div>
   </div>
 </template>

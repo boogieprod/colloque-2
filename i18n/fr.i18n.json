@@ -48,7 +48,6 @@
 	/*Not Found*/
 	"not_found": "Nothing here",
 
-
 	/*Dashboard*/
 	"add_post": "Add a Post",
 	"add_post_btn": "Add Post",
@@ -77,6 +76,11 @@
 	// "uploadLabel": "Choose File",
 	"profilePicture": "Profile Picture",
 
+	/*Tooltips*/
+
+	"udem_link": "Page d'accueil UdeM",
+	"usherb_link": "Page d'accueil UdeS",
+
 	/*Calendar*/
 
 	"schedule": "HORAIRE",
@@ -85,6 +89,11 @@
 
 	"mission_dialog_box_1st" : "Organisé à la suite d’une étroite collaboration entre la faculté de pharmacie de l’Université de Montréal, ainsi que le département de pharmacologie de l’Université de Sherbrooke, le colloque vise à promouvoir et instiguer à la découverte des programmes de baccalauréats en sciences biopharmaceutiques et en pharmacologie, ceux-ci étant respectivement offerts au sein de ces instituts. Au terme de cet évènement, les étudiants provenant de ces domaines sont appelés à tergiverser sur les multiples aspects du développement du médicament, soit de la recherche fondamentale jusqu’à la mise en marché d’agents thérapeutiques. De plus, conférences et entretiens avec de nombreux experts des champs industriels, cliniques, universitaires et commerciaux sont prévus afin d’informer la relève universitaire en ce qui concerne des sujets de recherche novateurs, en plus d’énoncer certains enjeux du domaine pharmaceutique et d’expliquer le rôle et l’importance des différentes facettes de ce dernier.",
 	"mission_dialog_box_2nd" : "Suivant ces échanges, tous les élèves présents sont ensuite invités à mettre à l’œuvre et intégrer leurs connaissances acquises en participant à des mises en situations et en résolvant des problématiques vraisemblables et appliquées. Le comité organisationnel procède finalement à une remise de prix soulignant les équipes ayant démontré leur savoir, leur initiative et leurs esprits critiques tout au long du déroulement de l’exercice. En plus d’être un moment propice à la transmission d’information, le colloque incite les étudiants à interagir entre eux ou avec les professionnels présents dans le but d’entretenir ultimement des discussions scientifiques pertinentes et substantielles.",
+
+	/*Map*/
+
+	"map_title": "Nous sommes heureux de pouvoir vous accueillir en si grand nombre \u00E0 l'endroit suivant: ",
+	"event_address": ", 350 rue Saint-Paul Est, Montr\u00E9al, QC, H2Y 1H2",
 
 	/*IESucks*/
 
@@ -98,5 +107,15 @@
 	/* contactUs */
 	"iAm_business": "Je suis une entreprise",
 	"iAm_student": "Je suis un \u00E9tudiant",
-	"iAm_professional": "Je suis un professionnel/conf\u00E9rencier"
+	"iAm_professional": "Je suis un professionnel/conf\u00E9rencier",
+	"sponsorMtl": "Commanditaire r\u00E9gion de Montr\u00E9al",
+	"sponsorShe": "Commanditaire r\u00E9gion de Sherbrooke",
+	"mtl_speaker": "Conf\u00E9rencier pour l'UdeM",
+	"she_speaker": "Conf\u00E9rencier pour l'UdeS'",
+	"role": "Rôle",
+	"name": "Nom",
+	"email": "Adresse de courriel",
+	"phone": "Num\u00E9ro de t\u00E9l\u00E9phone",
+	"mtl_rep": "Repr\u00E9sentant pour l'UdeM",
+	"sherb_rep": "Repr\u00E9sentant pour l'UdeS"
 }

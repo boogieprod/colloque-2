@@ -48,7 +48,6 @@
 	/*Not Found*/
 	"not_found": "Nothing here",
 
-
 	/*Dashboard*/
 	"add_post": "Add a Post",
 	"add_post_btn": "Add Post",
@@ -77,6 +76,11 @@
 	// "uploadLabel": "Choose File",
 	"profilePicture": "Profile Picture",
 
+	/*Tooltips*/
+
+	"udem_link": "UDEM home page",
+	"usherb_link": "UDES home page",
+
 	/*Calendar*/
 
 	"schedule": "SCHEDULE",
@@ -85,6 +89,11 @@
 
 	"mission_dialog_box_1st" : "Organized as a result of a close collaboration between the Faculty of Pharmacy of Montreal University and the Pharmacology Department of Sherbrooke University, the conference aims to promote and instigate the discovery of science programs biopharmaceutical and pharmacology, these being respectively provided within these institutes. After this event, students from these areas are called to exchange on the many aspects of drug development, either basic research to the marketing of therapeutic agents. In addition, lectures and interviews with many experts in industrial fields, clinical, academic and business are expected to inform young academics regarding innovative research topics, in addition to state some of pharmacy issues and explain the role and importance of the various facets of the latter.",
 	"mission_dialog_box_2nd" : "Following these exchanges, all students present will then be invited to put it to work and integrate their knowledge by participating in simulation exercises and solving probable and applied problems. The organizing committee finally makes an award highlighting the teams that have demonstrated their knowledge, initiative and critics throughout the exercise. Beyond being an opportunity for the transmission of information, the conference encourages students to interact among themselves or with the professionals present in order to ultimately maintain relevant and substantial scientific discussions.",
+
+	/*Map*/
+
+	"map_title": "We're pleased to welcome our many students at the following location: ",
+	"event_address": ", 350 Saint-Paul E, Montreal, QC, H2Y 1H2",
 
 	/*IESucks*/
 
@@ -98,5 +107,15 @@
 	/* contactUs */
 	"iAm_business": "I am a business",
 	"iAm_student": "I am a student",
-	"iAm_professional": "I am a professional/speaker"
+	"iAm_professional": "I am a professional/speaker",
+	"sponsorMtl": "Sponsor Montreal area",
+	"sponsorShe": "Sponsor Sherbrooke area",
+	"mtl_speaker": "Speaker from UDEM",
+	"she_speaker": "Speaker from UDES",
+	"role": "Role",
+	"name": "Name",
+	"email": "E-Mail address",
+	"phone": "Phone number",
+	"mtl_rep": "UDEM representative",
+	"sherb_rep": "UDES representative"
 }

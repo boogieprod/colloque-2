@@ -8,7 +8,7 @@ Template.map.helpers
     if GoogleMaps.loaded()
       return {
         center: new (google.maps.LatLng)(45.509008, -73.551446)
-        zoom: 15
+        zoom: 14
       }
     return
 

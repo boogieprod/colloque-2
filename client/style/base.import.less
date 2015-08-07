@@ -2,6 +2,15 @@ html, body
 {
   height:100%;
   z-index: 0;
+  background-image: url("img/yield_bg.jpg");
+  background-repeat: repeat-y;
+  background-position: top;
+  background-color: white;
+  background-size: cover;
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
 }
 
 .main-nav {
@@ -14,7 +23,7 @@ div.homepage_text {
 }
 
 .layout {
-  min-height: 70%;
+  min-height: 100%;
 }
 
 button.navbar-toggle {
@@ -44,6 +53,7 @@ button.navbar-toggle {
   background-image: url("img/colloque-bg.jpg");
   background-color: darken(@brand-primary, 10%);
   margin-top: 50px;
+  margin-bottom: 15px;
 }
 
 .explorer-box {
@@ -55,14 +65,38 @@ footer.footer {
   margin-bottom: 0;
 }
 
+#udem-logo {
+  float: left;
+  margin-right: 50%;
+}
+
+#udes-logo {
+  float: right;
+  margin-left: 50%;
+}
+
+.u-logos {
+  height: 80px;
+  width: 80px;
+}
+
 .mission-pic {
   margin-left: 15px;
 }
 
+#mapbox {
+  height: 600px;
+}
+
+.map-title {
+  margin-top: 0;
+}
+
 .map-container {
-  width: 800px;
+  width: 1000px;
   max-width: 100%;
   height: 500px;
+  max-height: 75%;
 }
 
 .collo-logo {
@@ -74,18 +108,6 @@ footer.footer {
   margin-right: 10px;
 }
 
-.panel-body {
-  padding: 0px;
-}
-
-.panel-body table tr td {
-  padding-left: 15px;
-}
-
-.panel-body .table {
-  margin-bottom: 0px;
-}
-
 #navbar-collapse {
   background-color: @brand-primary;
 }
@@ -95,4 +117,36 @@ footer.footer {
   z-index: 100001;
   width: 100%;
   top: 0;
+}
+
+.accordion {
+  border-radius: 15px;
+}
+
+.accordion a, .accordion span {
+  color: black;
+}
+
+.accordion-title {
+  font-size: 175%;
+}
+
+a.accordion-toggle:hover {
+  text-decoration: none;
+}
+
+.accordion-heading {
+  border: solid 1px #7c7c7c;
+  border-bottom: white;
+}
+
+.accordion-inner {
+  border: solid 1px #7c7c7c;
+  border-top: white;
+}
+
+.accordion-heading, .accordion-inner {
+  padding: 1%;
+  border-radius: 15px;
+  background-color: white;
 }

@@ -4,14 +4,20 @@
 			<div class="row text-center">
 				<div class="col-md-offset-2 col-md-8">
 					<ul class="social-networks">
-						{{#each socialMedia}}
-						<li><a href="{{url}}" target="_blank">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-{{icon}} fa-stack-1x fa-inverse"></i>
-						</span></a>
+						<li>
+							<a href="http://www.umontreal.ca">
+								<span id="udem-logo" class="simptip-position-top simptip-warning" data-tooltip="{{_ 'udem_link'}}">
+									<img class="img-circle u-logos" src="img/udem-logo.jpg"/>
+								</span>
+							</a>
 						</li>
-						{{/each}}
+						<li>
+							<a href="http://www.usherbrooke.ca">
+								<span id="udes-logo" class="simptip-position-top simptip-warning" data-tooltip="{{_ 'usherb_link'}}">
+									<img class="img-circle u-logos" src="img/sherbrooke-logo.jpg"/>
+								</span>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>

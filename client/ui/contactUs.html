@@ -2,70 +2,121 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-12">
-        <div class="panel-group" id="accordion">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        <div class="accordion" id="accordion2">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <h3 class="accordion-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
                   <span class="fa fa-users"></span>
                   {{_ "iAm_business"}}
                 </a>
-              </h4>
+              </h3>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
-              <div class="panel-body">
-                <table class="table">
-                  <tr>
-                    <td>
-                      <span class="fa fa-at text-primary"></span>Exemple
-                    </td>
-                  </tr>
+            <div id="collapseOne" class="accordion-body collapse in">
+              <div class="accordion-inner table-responsive">
+                <table class="table table-striped table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th>{{_ 'role'}}</th>
+                      <th>{{_ 'name'}}</th>
+                      <th>{{_ 'email'}}</th>
+                      <th>{{_ 'phone'}}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>{{_ 'sponsorMtl'}}</td>
+                      <td>Palina Piankova</td>
+                      <td>palina.piankova@umontreal.ca</td>
+                      <td>514-559-0380</td>
+                    </tr>
+                    <tr>
+                      <td>{{_ 'sponsorShe'}}</td>
+                      <td>Vincent Touchette</td>
+                      <td>vincent.touchette@usherbrooke.ca</td>
+                      <td>819-598-1916</td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             </div>
           </div>
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    <span class="fa fa-graduation-cap"></span>
-                    {{_ 'iAm_student'}}
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <table class="table">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <h3 class="accordion-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                  <span class="fa fa-graduation-cap"></span>
+                  {{_ 'iAm_student'}}
+                </a>
+              </h3>
+            </div>
+            <div id="collapseTwo" class="accordion-body collapse">
+              <div class="accordion-inner table-responsive">
+                <table class="table table-striped table-hover table-condensed">
+                  <thead>
                     <tr>
-                      <td>
-                        <span class="fa fa-at text-primary"></span>Exemple
-                      </td>
+                      <th>{{_ 'role'}}</th>
+                      <th>{{_ 'name'}}</th>
+                      <th>{{_ 'email'}}</th>
+                      <th>{{_ 'phone'}}</th>
                     </tr>
-                  </table>
-                </div>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>{{_ 'mtl_rep'}}</td>
+                      <td>Sarah-Jade Lavallée</td>
+                      <td>sarah-jade.lavallee-hanlin@umontreal.ca</td>
+                      <td>514-929-9442</td>
+                    </tr>
+                    <tr>
+                      <td>{{_ 'sherb_rep'}}</td>
+                      <td>Vincent Touchette</td>
+                      <td>vincent.touchette@usherbrooke.ca</td>
+                      <td>819-598-1916</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-            <div class="panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    <span class="fa fa-briefcase"></span>
-                    {{_ 'iAm_professional'}}
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <table class="table">
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <h3 class="accordion-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                  <span class="fa fa-briefcase"></span>
+                  {{_ 'iAm_professional'}}
+                </a>
+              </h3>
+            </div>
+            <div id="collapseThree" class="accordion-body collapse">
+              <div class="accordion-inner table-responsive">
+                <table class="table table-striped table-hover table-condensed">
+                  <thead>
                     <tr>
-                      <td>
-                        <span class="fa fa-at text-primary"></span>Exemple
-                      </td>
+                      <th>{{_ 'role'}}</th>
+                      <th>{{_ 'name'}}</th>
+                      <th>{{_ 'email'}}</th>
+                      <th>{{_ 'phone'}}</th>
                     </tr>
-                  </table>
-                </div>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>{{_ 'mtl_speaker'}}</td>
+                      <td>Sarah-Jade Lavallée</td>
+                      <td>sarah-jade.lavallee-hanlin@umontreal.ca</td>
+                      <td>514-929-9442</td>
+                    </tr>
+                    <tr>
+                      <td>{{_ 'she_speaker'}}</td>
+                      <td>Vincent Touchette</td>
+                      <td>vincent.touchette@usherbrooke.ca</td>
+                      <td>819-598-1916</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
