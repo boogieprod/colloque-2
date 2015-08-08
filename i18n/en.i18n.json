@@ -80,10 +80,17 @@
 
 	"udem_link": "UDEM home page",
 	"usherb_link": "UDES home page",
+	"udem_campus": "UDEM campus",
+	"udes_campus": "UDES campus",
 
 	/*Calendar*/
 
-	"schedule": "SCHEDULE",
+	"schedule_title": "Schedule of activities for the event",
+	"jan9": "January 9th 2016",
+	"jan10": "January 10th 2016",
+	"time": "Start-end time",
+	"event": "Event",
+	"speaker": "Speaker (if necessary)",
 
 	/*Mission*/
 

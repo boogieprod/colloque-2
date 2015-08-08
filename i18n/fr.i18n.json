@@ -80,10 +80,17 @@
 
 	"udem_link": "Page d'accueil UdeM",
 	"usherb_link": "Page d'accueil UdeS",
+	"udem_campus": "Campus UdeM",
+	"udes_campus": "Campus UdeS",
 
 	/*Calendar*/
 
-	"schedule": "HORAIRE",
+	"schedule_title": "Horaire des activit\u00E9s de l'\u00E9v\u00E9nement",
+	"jan9": "9 janvier 2016",
+	"jan10": "10 janvier 2016",
+	"time": "Heure de d\u00E9but et de fin",
+	"event": "\u00C9v\u00E9nement",
+	"speaker": "Conf\u00E9rencier (s'il y a lieu)",
 
 	/*Mission*/
 
@@ -111,7 +118,7 @@
 	"sponsorMtl": "Commanditaire r\u00E9gion de Montr\u00E9al",
 	"sponsorShe": "Commanditaire r\u00E9gion de Sherbrooke",
 	"mtl_speaker": "Conf\u00E9rencier pour l'UdeM",
-	"she_speaker": "Conf\u00E9rencier pour l'UdeS'",
+	"she_speaker": "Conf\u00E9rencier pour l'UdeS",
 	"role": "Rôle",
 	"name": "Nom",
 	"email": "Adresse de courriel",

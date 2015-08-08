@@ -18,6 +18,10 @@ EventsSchema =
     type: String
     optional: true
 
+  "i18n.fr.speaker":
+    type: String
+    optional: true
+
   day:
     type: String
 

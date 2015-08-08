@@ -1,8 +1,63 @@
 <template name="calendar">
   <div class="container">
     <div class="row">
-      <h2>{{_ "schedule"}}</h2>
-      {{> fullcalendar options}}
+      <div class="col-xs-12 col-md-12">
+        <h2>{{_ "schedule_title"}}</h2>
+        <div id="calendarday1" class="table-responsive col-xs-6 col-md-6">
+          <h3><strong>{{_ 'jan9'}}</strong></h3>
+          <table class="table table-bordered table-striped table-hover">
+            <thead>
+              <tr>
+                <th>{{_ 'time'}}</th>
+                <th>{{_ 'event'}}</th>
+                <th>{{_ 'speaker'}}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each firstdayevents}}
+              <tr>
+                <td>
+                  {{time}}
+                </td>
+                <td>
+                  {{name}}
+                </td>
+                <td>
+                  {{speaker}}
+                </td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+        <div id="calendarday2" class="table-responsive col-xs-6 col-md-6">
+          <h3><strong>{{_ 'jan10'}}</strong></h3>
+          <table class="table table-bordered table-striped table-hover">
+            <thead>
+              <tr>
+                <th>{{_ 'time'}}</th>
+                <th>{{_ 'event'}}</th>
+                <th>{{_ 'speaker'}}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each seconddayevents}}
+              <tr>
+                <td>
+                  {{time}}
+                </td>
+                <td>
+                  {{name}}
+                </td>
+                <td>
+                  {{speaker}}
+                </td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 </template>
