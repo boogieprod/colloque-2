@@ -11,7 +11,7 @@
 	subtitle: ->
 			TAPi18n.__ 'configSubtitle'
 	logo: ->
-		'<img class="collo-logo" src="/img/colloque_logo.jpg"/>'
+		'<img class="collo-logo" src="/img/colloque_logo.png"/>'
 	footer: ->
 		@name + ' - Copyright ' + new Date().getFullYear()
 
