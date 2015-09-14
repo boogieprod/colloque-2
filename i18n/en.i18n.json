@@ -5,29 +5,6 @@
 	"configTitle": "Starter for colloque project",
 	"configSubtitle": "Server: Node, DB: Mongo, Framework: Meteor",
 
-	/*Home*/
-	"getstarted": "Get Started",
-	"user-interface": "User Interface",
-	"dashboard": "Go to dashboard",
-	"learn": "Learn more",
-	"intro": "Make Meteor Apps. Fast.",
-	"how": "How It Works",
-	"step_1": "Step 1",
-	"step_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-	"step_2": "Step 2",
-	"step_2_text": "Oratio me istius philosophi non offendit; Qua tu etiam inprudens utebare non numquam.",
-	"step_3": "Step 3",
-	"step_3_text": "Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete.",
-	"section_ipad_header": "A revolutionary product",
-	"section_ipad_text": "Do really cool stuff really quickly",
-	"section_ipad_btn": "Made by MeteorFactory",
-	"final_text": "Your life will be instantly better",
-	"final_cta": "Take a look",
-
-	/*Shared*/
-
-	"favorite": "Favorite",
-
 	 /*Navbar*/
 	"admin": "Admin",
 	"profile": "Profile",
@@ -41,12 +18,12 @@
 	"calendar": "Calendar",
 	"howToGetThere": "How to get there?",
 	"contactUs": "Contact us",
-	"headerMainText": "Intra-university colloquium in pharmaceutical field",
+	"headerMainText": "University colloquium in pharmaceutical field",
 	"homepageMainText": "Actual and future stake of pharmaceutical field",
-	"homepageSubText": "January 9-10 2016",
+	"homepageSubText": "January 9 2016",
 
 	/*Not Found*/
-	"not_found": "Nothing here",
+	"not_found": "Nothing here, you'd propably misstype the URL press on logo to redirect to home page",
 
 	/*Dashboard*/
 	"add_post": "Add a Post",
@@ -79,28 +56,27 @@
 	/*Tooltips*/
 
 	"udem_link": "UDEM home page",
-	"usherb_link": "UDES home page",
+	"usherb_link": "Linkedin link",
 	"udem_campus": "UDEM campus",
-	"udes_campus": "UDES campus",
+	"pavillon_jc": "Jean Coutu pavilion",
 
 	/*Calendar*/
 
 	"schedule_title": "Schedule of activities for the event",
 	"jan9": "January 9th 2016",
-	"jan10": "January 10th 2016",
 	"time": "Start-end time",
 	"event": "Event",
 	"speaker": "Speaker (if necessary)",
 
 	/*Mission*/
 
-	"mission_dialog_box_1st" : "Organized as a result of a close collaboration between the Faculty of Pharmacy of Montreal University and the Pharmacology Department of Sherbrooke University, the conference aims to promote and instigate the discovery of science programs biopharmaceutical and pharmacology, these being respectively provided within these institutes. After this event, students from these areas are called to exchange on the many aspects of drug development, either basic research to the marketing of therapeutic agents. In addition, lectures and interviews with many experts in industrial fields, clinical, academic and business are expected to inform young academics regarding innovative research topics, in addition to state some of pharmacy issues and explain the role and importance of the various facets of the latter.",
-	"mission_dialog_box_2nd" : "Following these exchanges, all students present will then be invited to put it to work and integrate their knowledge by participating in simulation exercises and solving probable and applied problems. The organizing committee finally makes an award highlighting the teams that have demonstrated their knowledge, initiative and critics throughout the exercise. Beyond being an opportunity for the transmission of information, the conference encourages students to interact among themselves or with the professionals present in order to ultimately maintain relevant and substantial scientific discussions.",
+	"mission_dialog_box_1st" : "Organized as a result of a close collaboration between the students of the Bachelor program in the biopharmaceutical science field at the pharmacy faculty of Montreal University and the DESS department and superiors cycles of the same university, the colloquim aims to promote and instigate the discovery of the biopharmaceutical and pharmacology science programs, these being respectively provided within these institutes. After this event, students from these areas are called to exchange on the many aspects of drug development, from basic research to the marketing of therapeutic agents. In addition, lectures and interviews with many experts in industrial, clinical, academic and business fields are expected to inform young academics regarding innovative research topics, state some of pharmacy issues and explain the role and importance of the various facets of the latter.",
+	"mission_dialog_box_2nd" : "Following these exchanges, all students present will then be invited to put it to work and integrate their knowledge by participating in simulation exercises and solving probable and applied problems. The organizing committee finally gives an award highlighting the teams that have demonstrated their knowledge, initiative and critical mind throughout the exercise. Beyond being an opportunity for the transmission of information, the conference encourages students to interact among themselves or with the professionals present in order to ultimately maintain relevant and substantial scientific discussions.",
 
 	/*Map*/
 
-	"map_title": "We're pleased to welcome our many students at the following location: ",
-	"event_address": ", 350 Saint-Paul E, Montreal, QC, H2Y 1H2",
+	"map_title": "We're pleased to welcome you at the following location: ",
+	"event_address": ", 2940 Chemin de Polytechnique Montreal, QC H3T 1J4",
 
 	/*IESucks*/
 
@@ -124,5 +100,5 @@
 	"email": "E-Mail address",
 	"phone": "Phone number",
 	"mtl_rep": "UDEM representative",
-	"sherb_rep": "UDES representative"
+	"dess_rep": "DESS and superiors cycles representative"
 }
