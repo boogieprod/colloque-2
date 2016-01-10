@@ -4,7 +4,13 @@ Meteor.startup ->
       email: "frederick.bouchard88@gmail.com"
       password: "627dada"
       roles: ['admin']
-    Accounts.createUser options
+
+    options2 =
+        email: "gfregeau27@gmail.com"
+        password: "password"
+        roles: ["admin"]
+
+    Accounts.createUser options options2
 
   if Events.find().count() is 0
     Events.insertTranslations {name: "Participants arrival", time: "12h30-13h30", id:1, speaker: null, day: "1"}, {fr: {name: "Arrivée des participants"}}
