@@ -18,9 +18,6 @@
 	"calendar": "Calendrier",
 	"howToGetThere": "Comment s'y rendre?",
 	"contactUs": "Nous contacter",
-	"headerMainText": "Colloque universitaire en milieu pharmaceutique",
-	"homepageMainText": "Enjeux actuels et futurs du milieu pharmaceutique",
-	"homepageSubText": "9 janvier 2016",
 
 	/*Not Found*/
 	"not_found": "Il n'y a rien ici, vous avez probablement mal entr\u00E9 le URL, appuyez sur le logo pour retourner \u00E0 la page m\u00E8re",
@@ -70,7 +67,6 @@
 
 	/*Mission*/
 
-	"mission_dialog_box_1st" : "Organisé à la suite d’une étroite collaboration entre les \u00E9tudiants du programme de baccalaur\u00E9ats en sciences biopharmaceutiques de la facult\u00E9 de pharmacie de l'Universit\u00E9 de Montr\u00E9al, ainsi que le d\u00E9partement du DESS et des cycles sup\u00E9rieurs de cette m\u00EAme universit\u00E9, le Pharmacolloque vise à promouvoir et instiguer à la découverte des programmes de baccalauréats en sciences biopharmaceutiques et en pharmacologie, ceux-ci étant respectivement offerts au sein de ces instituts. Au terme de cet évènement, les étudiants provenant de ces domaines sont appelés à tergiverser sur les multiples aspects du développement du médicament, soit de la recherche fondamentale jusqu’à la mise en marché d’agents thérapeutiques. De plus, conférences et entretiens avec de nombreux experts des champs industriels, cliniques, universitaires et commerciaux sont prévus afin d’informer la relève universitaire en ce qui concerne des sujets de recherche novateurs, en plus d’énoncer certains enjeux du domaine pharmaceutique et d’expliquer le rôle et l’importance des différentes facettes de ce dernier.",
 	"mission_dialog_box_2nd" : "Suivant ces échanges, tous les élèves présents sont ensuite invités à mettre à l’œuvre et intégrer leurs connaissances acquises en participant à des mises en situations et en résolvant des problématiques vraisemblables et appliquées. Le comité organisationnel procède finalement à une remise de prix soulignant les équipes ayant démontré leur savoir, leur initiative et leurs esprits critiques tout au long du déroulement de l’exercice. En plus d’être un moment propice à la transmission d’information, le colloque incite les étudiants à interagir entre eux ou avec les professionnels présents dans le but d’entretenir ultimement des discussions scientifiques pertinentes et substantielles.",
 
 	/*Map*/

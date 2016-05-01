@@ -18,9 +18,6 @@
 	"calendar": "Calendar",
 	"howToGetThere": "How to get there?",
 	"contactUs": "Contact us",
-	"headerMainText": "University colloquium in pharmaceutical field",
-	"homepageMainText": "Actual and future stake of pharmaceutical field",
-	"homepageSubText": "January 9 2016",
 
 	/*Not Found*/
 	"not_found": "Nothing here, you'd propably misstype the URL press on logo to redirect to home page",
@@ -70,7 +67,6 @@
 
 	/*Mission*/
 
-	"mission_dialog_box_1st" : "Organized as a result of a close collaboration between the students of the Bachelor program in the biopharmaceutical science field at the pharmacy faculty of Montreal University and the DESS department and superiors cycles of the same university, the colloquim aims to promote and instigate the discovery of the biopharmaceutical and pharmacology science programs, these being respectively provided within these institutes. After this event, students from these areas are called to exchange on the many aspects of drug development, from basic research to the marketing of therapeutic agents. In addition, lectures and interviews with many experts in industrial, clinical, academic and business fields are expected to inform young academics regarding innovative research topics, state some of pharmacy issues and explain the role and importance of the various facets of the latter.",
 	"mission_dialog_box_2nd" : "Following these exchanges, all students present will then be invited to put it to work and integrate their knowledge by participating in simulation exercises and solving probable and applied problems. The organizing committee finally gives an award highlighting the teams that have demonstrated their knowledge, initiative and critical mind throughout the exercise. Beyond being an opportunity for the transmission of information, the conference encourages students to interact among themselves or with the professionals present in order to ultimately maintain relevant and substantial scientific discussions.",
 
 	/*Map*/

@@ -29,6 +29,16 @@
 				{label: "Last Update", name: 'updatedAt'}
 			]
 		}
+		TextDB: {
+			title: 'Textual content'
+			color: 'green'
+			icon: 'binoculars'
+			tableColumns: [
+				{label: "Name", name: 'name'}
+				{label: "Content", name: 'text_content'}
+				{label: "Last Update", name: 'updatedAt'}
+			]
+		}
 
 	dashboard:
 		homeUrl: '/dashboard'

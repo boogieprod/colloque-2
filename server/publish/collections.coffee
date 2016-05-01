@@ -9,3 +9,6 @@ Meteor.publish 'attachments', ->
 
 TAPi18n.publish 'events', ->
 	Events.i18nFind()
+
+TAPi18n.publish 'textDB', ->
+	TextDB.i18nFind()
