@@ -20,6 +20,8 @@ Router.map ->
 
   @route "uiHomepage",
     path: "/"
+    waitOn: ->
+      TAPi18n.subscribe 'textDB'
 
   @route "calendar",
     path: "/calendar"
