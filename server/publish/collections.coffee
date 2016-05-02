@@ -12,3 +12,9 @@ TAPi18n.publish 'events', ->
 
 TAPi18n.publish 'textDB', ->
 	TextDB.i18nFind()
+
+TAPi18n.publish 'contacts', ->
+	Contacts.i18nFind()
+
+Meteor.publish 'video', ->
+	Video.find()

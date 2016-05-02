@@ -1,9 +1,6 @@
-@TextDB = new TAPi18n.Collection 'textDB'
+@Contacts = new TAPi18n.Collection 'contacts'
 
-TextDBSchema =
-
-	html_tag:
-		type: String
+ContactsSchema =
 
 	category:
 		type: String
@@ -11,21 +8,17 @@ TextDBSchema =
 	name:
 		type: String
 
-	text_content:
+	role:
 		type: String
-		optional: true
 
-	lat:
-		type: String
-		optional: true
+	email:
+		type: SimpleSchema.RegEx.Email
 
-	long:
+	phone:
 		type: String
-		optional: true
 
-	"i18n.fr.text_content":
+	"i18n.fr.role":
 		type: String
-		optional: true
 
 	createdAt:
 		type: Date
@@ -40,4 +33,4 @@ TextDBSchema =
 			if this.isUpdate
 				new Date()
 
-TextDB.attachSchema TextDBSchema
+Contacts.attachSchema ContactsSchema

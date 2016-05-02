@@ -59,19 +59,12 @@
 
 	/*Calendar*/
 
-	"schedule_title": "Schedule of activities for the event",
-	"jan9": "January 9th 2016",
 	"time": "Start-end time",
 	"event": "Event",
 	"speaker": "Speaker (if necessary)",
 
-	/*Mission*/
-
-	"mission_dialog_box_2nd" : "Following these exchanges, all students present will then be invited to put it to work and integrate their knowledge by participating in simulation exercises and solving probable and applied problems. The organizing committee finally gives an award highlighting the teams that have demonstrated their knowledge, initiative and critical mind throughout the exercise. Beyond being an opportunity for the transmission of information, the conference encourages students to interact among themselves or with the professionals present in order to ultimately maintain relevant and substantial scientific discussions.",
-
 	/*Map*/
-
-	"map_title": "We're pleased to welcome you at the following location: ",
+	
 	"event_address": ", 2940 Chemin de Polytechnique Montreal, QC H3T 1J4",
 
 	/*IESucks*/

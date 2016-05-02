@@ -24,12 +24,14 @@
                     </tr>
                   </thead>
                   <tbody>
+                  {{#each business_contacts}}
                     <tr>
-                      <td>{{_ 'sponsorMtl'}}</td>
-                      <td>Palina Piankova</td>
-                      <td>palina.piankova@umontreal.ca</td>
-                      <td>514-559-0380</td>
+                      <td>{{role}}</td>
+                      <td>{{name}}</td>
+                      <td>{{email}}</td>
+                      <td>{{phone}}</td>
                     </tr>
+                  {{/each}}
                   </tbody>
                 </table>
               </div>
@@ -56,18 +58,14 @@
                     </tr>
                   </thead>
                   <tbody>
+                    {{#each student_contacts}}
                     <tr>
-                      <td>{{_ 'mtl_rep'}}</td>
-                      <td>Sarah-Jade Lavallée</td>
-                      <td>sarah-jade.lavallee-hanlin@umontreal.ca</td>
-                      <td>514-929-9442</td>
+                      <td>{{role}}</td>
+                      <td>{{name}}</td>
+                      <td>{{email}}</td>
+                      <td>{{phone}}</td>
                     </tr>
-                    <tr>
-                      <td>{{_ 'dess_rep'}}</td>
-                      <td>Rana Salamé</td>
-                      <td>rana.salame@umontreal.ca</td>
-                      <td>514-258-7613</td>
-                    </tr>
+                    {{/each}}
                   </tbody>
                 </table>
               </div>
@@ -94,12 +92,14 @@
                     </tr>
                   </thead>
                   <tbody>
+                  {{#each professional_contacts}}
                     <tr>
-                      <td>{{_ 'mtl_speaker'}}</td>
-                      <td>Sarah-Jade Lavallée</td>
-                      <td>sarah-jade.lavallee-hanlin@umontreal.ca</td>
-                      <td>514-929-9442</td>
+                      <td>{{role}}</td>
+                      <td>{{name}}</td>
+                      <td>{{email}}</td>
+                      <td>{{phone}}</td>
                     </tr>
+                    {{/each}}
                   </tbody>
                 </table>
               </div>

@@ -59,19 +59,12 @@
 
 	/*Calendar*/
 
-	"schedule_title": "Horaire des activit\u00E9s de l'\u00E9v\u00E9nement",
-	"jan9": "9 janvier 2016",
 	"time": "Heure de d\u00E9but et de fin",
 	"event": "\u00C9v\u00E9nement",
 	"speaker": "Conf\u00E9rencier (s'il y a lieu)",
-
-	/*Mission*/
-
-	"mission_dialog_box_2nd" : "Suivant ces échanges, tous les élèves présents sont ensuite invités à mettre à l’œuvre et intégrer leurs connaissances acquises en participant à des mises en situations et en résolvant des problématiques vraisemblables et appliquées. Le comité organisationnel procède finalement à une remise de prix soulignant les équipes ayant démontré leur savoir, leur initiative et leurs esprits critiques tout au long du déroulement de l’exercice. En plus d’être un moment propice à la transmission d’information, le colloque incite les étudiants à interagir entre eux ou avec les professionnels présents dans le but d’entretenir ultimement des discussions scientifiques pertinentes et substantielles.",
-
+	
 	/*Map*/
 
-	"map_title": "Nous sommes heureux de pouvoir vous accueillir \u00E0 l'endroit suivant: ",
 	"event_address": ", 2940 chemin de Polytechnique Montr\u00E9al, QC H3T1J4",
 
 	/*IESucks*/

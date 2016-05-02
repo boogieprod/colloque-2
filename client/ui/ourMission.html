@@ -3,13 +3,19 @@
     <div class="row">
       <div class="span4 col-md-12 col-xs-12">
         <div class="dialog-box clearfix content-heading">
-          <img class="pull-right mission-pic" src="img/Notre mission.png"/>
+          <div class="pull-right mission-pic">
+            {{> missionVid}}
+          </div>
           <p>{{mission_dialog1}}</p>
         </div>
         <p class="dialog-box">
-          {{_ 'mission_dialog_box_2nd'}}
+          {{mission_dialog2}}
         </p>
       </div>
     </div>
   </div>
+</template>
+
+<template name="missionVid">
+  {{> YTPlayer name="ytplayer"}}
 </template>

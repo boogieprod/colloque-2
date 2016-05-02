@@ -35,7 +35,7 @@ EventsSchema =
     type: Date
     optional: true
     autoValue: ->
-      if this.isUpdated
+      if this.isUpdate
         new Date()
 
 Events.attachSchema EventsSchema

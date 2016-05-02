@@ -58,6 +58,7 @@ fortawesome:fontawesome@4.3.0
 geojson-utils@1.0.3
 google@1.1.5
 handlebars@1.0.3
+hpx7:youtube-iframe-player@0.4.15
 html-tools@1.0.4
 htmljs@1.0.4
 http@1.1.0
@@ -103,6 +104,7 @@ multiply:iron-router-progress@1.0.1
 natestrauser:animate-css@3.2.6
 notifications@0.0.7
 npm-bcrypt@0.7.8_2
+numtel:template-from-string@0.1.0
 oauth@1.1.4
 oauth1@1.1.4
 oauth2@1.1.3

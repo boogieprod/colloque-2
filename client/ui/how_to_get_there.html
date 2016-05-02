@@ -1,11 +1,11 @@
 <template name="map">
   <div class="container" id="mapbox">
     <h3 class="map-title">
-      {{_ 'map_title'}}
+      {{map_title}}
       <br>
       <hr>
-      <strong>Pavillon Jean Coutu</strong>
-      {{_ 'event_address'}}
+      <strong>{{event_location}}</strong>
+      {{event_address}}
     </h3>
     <div class="map-container">
       {{> googleMap name="map" options=mapOptions}}

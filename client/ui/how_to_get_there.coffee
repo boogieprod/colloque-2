@@ -7,10 +7,19 @@ Template.map.helpers
   mapOptions: ->
     if GoogleMaps.loaded()
       return {
-        center: new (google.maps.LatLng)(45.50049, -73.61481)
+        center: new (google.maps.LatLng)((parseFloat(TextDB.findOne(html_tag: "event_lat_long").lat)), (parseFloat(TextDB.findOne(html_tag: "event_lat_long").long)))
         zoom: 15
       }
     return
+
+  "map_title": ->
+    TextDB.findOne(html_tag: "map_title").text_content
+
+  "event_location": ->
+    TextDB.findOne(html_tag: "event_location").text_content
+
+  "event_address": ->
+    TextDB.findOne(html_tag: "event_address").text_content
 
 Template.map.onCreated ->
   GoogleMaps.ready 'map', (map) ->

@@ -27,12 +27,21 @@ Router.map ->
     path: "/calendar"
     waitOn: ->
       TAPi18n.subscribe 'events'
+      TAPi18n.subscribe 'textDB'
 
   @route "ourMission",
     path: "/our-mission"
+    waitOn: ->
+      TAPi18n.subscribe 'textDB'
+      Meteor.subscribe 'video'
 
   @route "map",
     path: "/how-to-get-there"
+    waitOn: ->
+      TAPi18n.subscribe 'textDB'
 
   @route "contactUs",
     path: "/contact-us"
+    waitOn: ->
+      TAPi18n.subscribe 'textDB'
+      TAPi18n.subscribe 'contacts'
