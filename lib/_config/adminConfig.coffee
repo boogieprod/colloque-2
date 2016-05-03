@@ -41,6 +41,14 @@
 				{label: "Last Update", name: "updatedAt"}
 			]
 		}
+		Video: {
+			color: 'green'
+			icon: 'video-camera'
+			tableColumns: [
+				{label: "Name", name: "name"}
+				{label: "Video ID", name: "vid_id"}
+			]
+		}
 		TextDB: {
 			color: 'green'
 			icon: 'file-text-o'
