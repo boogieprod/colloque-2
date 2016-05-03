@@ -2,10 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="span4 col-md-12 col-xs-12">
+        <div class="dialog-box">
+          {{> YTPlayer name="ytplayer"}}
+        </div>
         <div class="dialog-box clearfix content-heading">
-          <div class="pull-right mission-pic">
-            {{> missionVid}}
-          </div>
           <p>{{mission_dialog1}}</p>
         </div>
         <p class="dialog-box">
@@ -14,8 +14,4 @@
       </div>
     </div>
   </div>
-</template>
-
-<template name="missionVid">
-  {{> YTPlayer name="ytplayer"}}
 </template>

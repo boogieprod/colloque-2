@@ -57,4 +57,4 @@ Meteor.startup ->
 
     if Video.find().count() is 0
 
-        Video.insert {vid_id: "wJi-qJSCGEI"}
+        Video.insert {name: "yt_vid_id", vid_id: "wJi-qJSCGEI"}

@@ -1,8 +1,8 @@
-Template.missionVid.onRendered ->
-	console.log "template ready"
+Template.ourMission.onCreated ->
+	Meteor.subscribe 'video'
 	yt = new YTPlayer("ytplayer", {rel: 0, playsinline: 1})
 	Tracker.autorun ->
-		yt_id = Video.findOne().vid_id
+		yt_id = Video.findOne(name: "yt_vid_id").vid_id
 		if yt.ready() 
 			yt.player.loadVideoById yt_id
 			return

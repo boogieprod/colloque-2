@@ -2,6 +2,9 @@
 
 VideoSchema =
 
+	name:
+		type: String
+
 	vid_id:
 		type: String
 
