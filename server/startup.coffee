@@ -1,11 +1,5 @@
 Meteor.startup ->
     if Meteor.users.find().count() is 0
-        Accounts.createUser
-            username: 'fred'
-            password: 'password'
-            email: 'frederick.bouchard88@gmail.com'
-            profile:
-                name: 'Frederick Bouchard'
 
         Accounts.createUser
             username: 'admin'
