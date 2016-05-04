@@ -49,6 +49,15 @@
 				{label: "Video ID", name: "vid_id"}
 			]
 		}
+		Location: {
+			color: 'green'
+			icon: 'location-arrow'
+			tableColumns: [
+				{label: "ID", name: "id"}
+				{label: "Latitude", name: "latitude"}
+				{label: "Longitude", name: "longitude"}
+			]
+		}
 		TextDB: {
 			color: 'green'
 			icon: 'file-text-o'

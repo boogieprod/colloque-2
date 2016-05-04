@@ -26,7 +26,6 @@ Meteor.startup ->
         TextDB.insertTranslations {name: "Map Title", html_tag: "map_title", category: "how to get there", text_content: "We're pleased to welcome you at the following location: "}, {fr: {text_content: "Nous sommes heureux de pouvoir vous accueillir à l'endroit suivant: "}}
         TextDB.insertTranslations {name: "Event Location", html_tag: "event_location", category: "how to get there", text_content: "Pavillon Jean Coutu"}, {fr: {text_content: "Pavillon Jean Coutu"}}
         TextDB.insertTranslations {name: "Event Address", html_tag: "event_address", category: "how to get there", text_content: ", 2940 Chemin de Polytechnique, Montreal, QC, H3T 1J4"}, {fr: {text_content: ", 2940 chemin de Polytechnique, Montréal, QC, H3T1J4"}}
-        TextDB.insertTranslations {name: "Event Lat/Long", html_tag: "event_lat_long", category: "how to get there", lat: "45.50049", long: "-73.61481"}
 
     if Events.find().count() is 0
         Events.insertTranslations {name: "Participants arrival", time: "12h30-13h30", id:1, speaker: null, day: "1"}, {fr: {name: "Arrivée des participants"}}
@@ -58,3 +57,7 @@ Meteor.startup ->
     if Video.find().count() is 0
 
         Video.insert {name: "yt_vid_id", vid_id: "wJi-qJSCGEI"}
+
+    if Location.find().count() is 0
+
+        Location.insert {id: "event_location", latitude: "45.50049", longitude: "-73.61481"}

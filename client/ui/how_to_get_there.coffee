@@ -7,7 +7,7 @@ Template.map.helpers
   mapOptions: ->
     if GoogleMaps.loaded()
       return {
-        center: new (google.maps.LatLng)((parseFloat(TextDB.findOne(html_tag: "event_lat_long").lat)), (parseFloat(TextDB.findOne(html_tag: "event_lat_long").long)))
+        center: new (google.maps.LatLng)((parseFloat(Location.findOne(id: "event_location").latitude)), (parseFloat(Location.findOne(id: "event_location").longitude)))
         zoom: 15
       }
     return

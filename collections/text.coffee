@@ -15,14 +15,6 @@ TextDBSchema =
 		type: String
 		optional: true
 
-	lat:
-		type: String
-		optional: true
-
-	long:
-		type: String
-		optional: true
-
 	"i18n.fr.text_content":
 		type: String
 		optional: true
