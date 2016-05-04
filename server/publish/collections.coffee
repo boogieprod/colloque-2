@@ -18,3 +18,6 @@ TAPi18n.publish 'contacts', ->
 
 Meteor.publish 'video', ->
 	Video.find()
+
+Meteor.publish 'location', ->
+	Location.find()

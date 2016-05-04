@@ -39,6 +39,7 @@ Router.map ->
     path: "/how-to-get-there"
     waitOn: ->
       TAPi18n.subscribe 'textDB'
+      Meteor.subscribe 'location'
 
   @route "contactUs",
     path: "/contact-us"
