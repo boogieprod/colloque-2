@@ -1,4 +1,4 @@
-@Video = new Meteor.Collection 'video'
+@Video = new TAPi18n.Collection 'video'
 
 VideoSchema =
 
@@ -6,6 +6,9 @@ VideoSchema =
 		type: String
 
 	vid_id:
+		type: String
+
+	"i18n.fr.vid_id":
 		type: String
 
 	createdAt:
