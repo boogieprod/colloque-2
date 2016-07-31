@@ -55,3 +55,12 @@ Meteor.startup ->
     if Location.find().count() is 0
 
         Location.insert {id: "event_location", latitude: "45.50049", longitude: "-73.61481"}
+
+    if Logos.find().count() is 0
+
+        Logos.insertTranslations {name: "UDEM", url: "http://www.umontreal.ca", tooltip: "UDEM home page", logo: "udem-logo.jpg"}, fr: {tooltip: "Page d'accueil UdeM"}
+        Logos.insertTranslations {name: "UDES", url: "http://www.usherbrooke.ca/", tooltip: "UDES home page", logo: "udes-logo.jpg"}, fr: {tooltip: "Page d'accueil UdeS"}
+        Logos.insertTranslations {name: "McGill", url: "https://www.mcgill.ca/", tooltip: "McGill home page", logo: "mcgill_logo.jpg"}, fr: {tooltip: "Page d'accueil McGill"}
+        Logos.insertTranslations {name: "FAECUM", url: "http://www.faecum.qc.ca/", tooltip: "FAECUM home page", logo: "faecum_logo.jpg"}, fr: {tooltip: "Page d'accueil FAÉCUM"}
+        Logos.insertTranslations {name: "BNC", url: "http://www.bnc.ca/", tooltip: "BNC home page", logo: "BNC-logo.jpg"}, fr: {tooltip: "Page d'accueil BNC"}
+
